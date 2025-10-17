@@ -1,5 +1,8 @@
 from PIL import Image
 
+
+# digite isso no terminal 
+# 'python c:/Users/wandr/OneDrive/Desktop/Squaregame/Py/.vscode/app.py'
 def img_to_hex_matrix(image_path, threshold=128):
     # Abre e converte a imagem pra escala de cinza
     img = Image.open(image_path).convert('L')

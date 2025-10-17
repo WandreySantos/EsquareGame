@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 export default function App() {
-  const ESP32_IP = '192.168.0.102'; // IP do ESP32
+  const ESP32_IP = '192.168.0.109'; // IP do ESP32
   const [board, setBoard] = useState([
     ['', '', ''],
     ['', '', ''],

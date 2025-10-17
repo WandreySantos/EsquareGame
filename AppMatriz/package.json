@@ -16,6 +16,7 @@
   "version": "1.0.0",
   "scripts": {
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "start": "expo start"
   }
 }
